@@ -28,4 +28,8 @@ spring:
         - id: business-microservice04-location
           uri: lb://business-microservice02-location
           predicates:
-            - Path=/api/locations/**  
+            - Path=/api/locations/**
+        - id: business-microservice04-reports
+          uri: lb://business-microservice04-reports
+          predicates:
+            - Path=/api/reports/**  
