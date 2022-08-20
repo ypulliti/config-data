@@ -22,11 +22,11 @@ spring:
           predicates:
             - Path=/api/customers/**
         - id: business-microservice03-operation
-          uri: lb://business-microservice02-operation
+          uri: lb://business-microservice03-operation
           predicates:
             - Path=/api/passiveoperations/**
         - id: business-microservice04-location
-          uri: lb://business-microservice02-location
+          uri: lb://business-microservice04-location
           predicates:
             - Path=/api/locations/**
         - id: business-microservice04-reports
