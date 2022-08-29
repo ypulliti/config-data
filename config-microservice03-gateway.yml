@@ -36,4 +36,4 @@ spring:
         - id: business-microservice06-coinbank
           uri: lb://business-microservice06-coinbank
           predicates:
-            - Path=/api/reports/**  
+            - Path=/api/yanki/**  
