@@ -33,3 +33,7 @@ spring:
           uri: lb://business-microservice04-reports
           predicates:
             - Path=/api/reports/**  
+        - id: business-microservice06-coinbank
+          uri: lb://business-microservice06-coinbank
+          predicates:
+            - Path=/api/reports/**  
