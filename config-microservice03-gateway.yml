@@ -16,24 +16,24 @@ spring:
         - id: business-microservice01-product
           uri: lb://business-microservice01-product
           predicates:
-            - Path=/api/products/**
+            - Path=/api/**
         - id: business-microservice02-customer
           uri: lb://business-microservice02-customer
           predicates:
-            - Path=/api/customers/**
+            - Path=/api/**
         - id: business-microservice03-operation
           uri: lb://business-microservice03-operation
           predicates:
-            - Path=/api/passiveoperations/**
+            - Path=/api/**
         - id: business-microservice04-location
           uri: lb://business-microservice04-location
           predicates:
-            - Path=/api/locations/**
+            - Path=/api/**
         - id: business-microservice04-reports
           uri: lb://business-microservice04-reports
           predicates:
-            - Path=/api/reports/**  
+            - Path=/api/**  
         - id: business-microservice06-coinbank
           uri: lb://business-microservice06-coinbank
           predicates:
-            - Path=/api/yanki/**  
+            - Path=/api/**
